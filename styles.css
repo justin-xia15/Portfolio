@@ -1,0 +1,51 @@
+.container {
+  display: grid;
+  height: 300vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 2.5fr 1.5fr 2fr 1fr 1fr;
+  grid-template-areas:
+  "nav nav nav"
+  "intro intro intro"
+  "about about about"
+  "projects projects projects"
+  "resume resume resume"
+  "contact contact contact";
+  grid-gap: 0.2rem;
+  margin: 0;
+}
+
+nav{
+  background: #003638;
+  color: #fff;
+  grid-area: nav;
+}
+
+#intro {
+background: #F3F2C9;
+grid-area: intro;
+
+}
+
+#about {
+  background: #055052;
+  grid-area: about;
+
+}
+
+#projects {
+background: #53B8BB;
+grid-area: projects;
+
+}
+
+#resume {
+background: #055052;
+grid-area: resume;
+
+}
+
+#contact {
+background: #53B8BB;
+grid-area: contact;
+
+}
