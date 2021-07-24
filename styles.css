@@ -1,12 +1,13 @@
 body {
   margin: 0;
+  font-family: 'Merriweather';
 }
 
 .container {
   display: grid;
-  height: 300vh;
+  height: 350vh;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr 2.6fr 1.5fr 2fr 1fr 1fr;
+  grid-template-rows: 0.2fr 2.6fr 2fr 2fr 1fr 1fr;
   grid-template-areas:
   "nav nav nav"
   "intro intro intro"
@@ -55,6 +56,16 @@ span {
   color: #141E61;
 }
 
+p {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+img {
+  border-radius: 50%;
+  height: 200px;
+  padding-top: 2%;
+}
 #intro {
 background: #53B8BB;
 grid-area: intro;
@@ -64,6 +75,7 @@ grid-area: intro;
 #about {
   background: #FDF6F0;
   grid-area: about;
+  text-align: center;
 
 }
 
