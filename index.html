@@ -1,35 +1,68 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-    <title>Justin Xia</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  <title>Justin Xia</title>
+</head>
+
+<body>
   <div class="container">
     <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#resume">Resume</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
 
-    <div id = "intro"><h1>Hi, I'm <span>Justin</span>,<br> a web developer.</h1></div>
-    <div id = "about">
-      <img src="images/placeholder.jpg" alt="profile-pic">
-      <h2>About me</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rutrum, felis et commodo sollicitudin, leo ante tristique elit, ac vulputate magna lorem vel tortor. Sed eu risus enim. Nullam vulputate aliquet orci eget lacinia. Quisque accumsan sapien nec dui viverra, eu molestie libero molestie. Sed dapibus, dui vel tempor fermentum, justo purus volutpat ex, vel tristique erat ante eget nulla. Integer mattis fermentum velit vitae bibendum. Proin consectetur ac sapien quis ornare. Aliquam ante velit, volutpat at mi sed.</p>
+    <div id="intro">
+      <h1>Hi, I'm <span>Justin</span>,<br> a web developer.</h1>
     </div>
-    <div id = "projects">Projects</div>
-    <div id = "resume">Resume</div>
-    <div id = "contact">Contact</div>
+    <div id="about">
+      <img class="profile" src="images/placeholder.jpg" alt="profile-pic">
+      <h2>About me</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rutrum, felis et commodo sollicitudin, leo ante tristique elit, ac vulputate magna lorem vel tortor. Sed eu risus enim. Nullam vulputate aliquet orci eget lacinia. Quisque
+        accumsan sapien nec dui viverra, eu molestie libero molestie. Sed dapibus, dui vel tempor fermentum, justo purus volutpat ex, vel tristique erat ante eget nulla. Integer mattis fermentum velit vitae bibendum. Proin consectetur ac sapien quis
+        ornare. Aliquam ante velit, volutpat at mi sed.</p>
+    </div>
+    <div id="projects">
+      <h2>Projects</h2>
+
+      <div class="card1">
+        <img class="project-pic" src="images/bayway.png" alt="project-image">
+        <div class="card-container">
+          <h3>Bayway Inn</h3>
+          <p>Vivamus ornare elementum laoreet. Vivamus sagittis dolor at quam viverra, at iaculis sapien viverra. Donec porttitor turpis eu nisi venenatis, in tincidunt sapien porttitor.</p>
+        </div>
+      </div>
+
+      <div class="card2">
+        <img class="project-pic" src="images/tictactoe.png" alt="project-image">
+        <div class="card-container">
+          <h3>Tic-Tac-Toe</h3>
+          <p>Ut purus ipsum, egestas non nulla vel, blandit finibus libero. Vestibulum nec magna ac elit maximus luctus id commodo ligula. Duis pharetra leo in bibendum posuere. Integer sed arcu diam.</p>
+        </div>
+      </div>
+
+      <div class="card3">
+        <img class="project-pic" src="images/portfoliosite.png" alt="project-image">
+        <div class="card-container">
+          <h3>Portfolio</h3>
+          <p>Praesent maximus diam id elit condimentum, ut pellentesque quam vestibulum. Sed convallis dui convallis, mollis risus id, pellentesque tellus.</p>
+        </div>
+      </div>
+    </div>
+    <div id="resume">Resume</div>
+    <div id="contact">Contact</div>
 
   </div>
-  </body>
+</body>
+
 </html>
