@@ -7,7 +7,7 @@ body {
   display: grid;
   height: 350vh;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr 2.6fr 2fr 2fr 1fr 1fr;
+  grid-template-rows: 0.2fr 2.6fr 2fr 2.2fr 1fr 1fr;
   grid-template-areas:
   "nav nav nav"
   "intro intro intro"
@@ -25,6 +25,10 @@ h1 {
   font-family: 'Ubuntu';
   font-size: 9rem;
   margin-left: 5%;
+}
+
+h2 {
+  margin-top: 3%;
 }
 
 nav{
@@ -61,11 +65,12 @@ p {
   margin-right: 10%;
 }
 
-img {
+.profile {
   border-radius: 50%;
   height: 200px;
   padding-top: 2%;
 }
+
 #intro {
 background: #53B8BB;
 grid-area: intro;
@@ -80,8 +85,9 @@ grid-area: intro;
 }
 
 #projects {
-background: #53B8BB;
+background: #055052;
 grid-area: projects;
+text-align: center;
 
 }
 
@@ -92,7 +98,43 @@ grid-area: resume;
 }
 
 #contact {
-background: #53B8BB;
+background: #055052;
 grid-area: contact;
 
+}
+
+.card1 {
+  background: #fff;
+  border-radius: 5px;
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.card2 {
+  background: #fff;
+  border-radius: 5px;
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+.card3 {
+  background: #fff;
+  border-radius: 5px;
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 5%;
+}
+
+.project-pic {
+  border-radius: 5px;
+  height: 40%;
+  width: 100%;
 }
