@@ -7,13 +7,12 @@ body {
   display: grid;
   height: 350vh;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr 2.6fr 2fr 2.2fr 1fr 1fr;
+  grid-template-rows: 0.2fr 2.6fr 2fr 3.2fr 1fr;
   grid-template-areas:
   "nav nav nav"
   "intro intro intro"
   "about about about"
   "projects projects projects"
-  "resume resume resume"
   "contact contact contact";
   grid-gap: 0.2rem;
   grid-row-gap: 0;
@@ -88,7 +87,10 @@ grid-area: intro;
 background: #055052;
 grid-area: projects;
 text-align: center;
+}
 
+#projects h2 {
+  color: #fff;
 }
 
 #resume {
@@ -98,7 +100,7 @@ grid-area: resume;
 }
 
 #contact {
-background: #055052;
+background: #FDF6F0;
 grid-area: contact;
 
 }
@@ -106,35 +108,54 @@ grid-area: contact;
 .card1 {
   background: #fff;
   border-radius: 5px;
-  height: 400px;
-  width: 300px;
+  font-size: 0.8rem;
+  height: 450px;
+  width: 350px;
   position: absolute;
-  margin-left: 10%;
+  margin-left: 8%;
   margin-top: 5%;
 }
 
 .card2 {
   background: #fff;
   border-radius: 5px;
-  height: 400px;
-  width: 300px;
+  font-size: 0.8rem;
+  height: 450px;
+  width: 350px;
   position: absolute;
-  margin-left: 40%;
+  margin-left: 38%;
   margin-top: 5%;
 }
 
 .card3 {
   background: #fff;
   border-radius: 5px;
-  height: 400px;
-  width: 300px;
+  font-size: 0.8rem;
+  height: 450px;
+  width: 350px;
   position: absolute;
-  margin-left: 70%;
+  margin-left: 68%;
   margin-top: 5%;
 }
 
 .project-pic {
-  border-radius: 5px;
-  height: 40%;
+  border-radius: 5px 5px 0 0;
+  height: 45%;
   width: 100%;
+}
+
+.button {
+  background-color: red;
+  border-radius: 5px;
+  display: inline-block;
+  height: 30px;
+  width: 50px;
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+.btn {
+  color: #000;
 }
