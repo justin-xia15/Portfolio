@@ -7,7 +7,7 @@ body {
   display: grid;
   height: 350vh;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr 2.6fr 2fr 3.2fr 1fr;
+  grid-template-rows: 0.2fr 2.6fr 2fr 3.2fr 1.5fr;
   grid-template-areas:
   "nav nav nav"
   "intro intro intro"
@@ -102,6 +102,7 @@ grid-area: resume;
 #contact {
 background: #FDF6F0;
 grid-area: contact;
+text-align: center;
 
 }
 
@@ -164,4 +165,18 @@ grid-area: contact;
 .btn {
   color: #fff;
   display: block;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.icon-wrapper {
+  margin-left: 2%;
+}
+
+.socials {
+  color: #000;
 }
