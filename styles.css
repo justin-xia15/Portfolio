@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Merriweather';
+  overflow-x: hidden;
 }
 
 .container {
@@ -64,6 +65,11 @@ p {
   margin-right: 10%;
 }
 
+.container {
+  background-color: #53B8BB;
+
+}
+
 .profile {
   border-radius: 50%;
   height: 200px;
@@ -104,6 +110,54 @@ background: #FDF6F0;
 grid-area: contact;
 text-align: center;
 
+}
+
+/* Navbar */
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #055052;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  font-family: 'Merriweather';
+  color: #fff;
+  display: block;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #ddd;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.icon {
+  color: #fff;
+  position: relative;
+  margin-left: 1400px;
+  margin-top: 20px;
 }
 
 .card1 {
