@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/6501631fdf.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,14 +15,31 @@
 
 <body>
   <div class="container">
-    <nav>
+
+    <div id="myNav" class="overlay">
+
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <div class="overlay-content">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#">Resume</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+  </div>
+
+  <span onclick="openNav()"><i class="fas fa-bars icon"></i></span>
+
+    <!-- <nav>
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#resume">Resume</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-    </nav>
+    </nav> -->
+
 
     <div id="intro">
       <h1>Hi, I'm <span>Justin</span>,<br> a web developer.</h1>
@@ -76,14 +94,15 @@
       <h2>Contact</h2><br>
       <p>Email: justinxia9@gmail.com</p><br>
       <div class="icon-wrapper">
-      <a class="socials" href="https://www.linkedin.com/in/justin-xia/" target="_blank"><i class="fab fa-linkedin icon"></i></a>
-      <a class="socials" href="https://github.com/justin-xia15" target="_blank"><i class="fab fa-github icon"></i></a>
-      <a class="socials" href="mailto:justinxia9@gmail.com"><i class="fas fa-envelope icon"></i></a>
-    </div>
+        <a class="socials" href="https://www.linkedin.com/in/justin-xia/" target="_blank"><i class="fab fa-linkedin icon"></i></a>
+        <a class="socials" href="https://github.com/justin-xia15" target="_blank"><i class="fab fa-github icon"></i></a>
+        <a class="socials" href="mailto:justinxia9@gmail.com"><i class="fas fa-envelope icon"></i></a>
+      </div>
 
     </div>
 
   </div>
+  <script src="index.js" type="text/javascript"></script>
 </body>
 
 </html>
