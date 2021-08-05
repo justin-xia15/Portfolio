@@ -1,7 +1,6 @@
 body {
   margin: 0;
   font-family: 'Merriweather';
-  overflow-x: hidden;
 }
 
 .container {
@@ -17,7 +16,8 @@ body {
   "contact contact contact";
   grid-gap: 0.2rem;
   grid-row-gap: 0;
-
+  overflow-x: hidden;
+  position: relative;
 }
 
 h1 {
@@ -86,7 +86,6 @@ grid-area: intro;
   background: #FDF6F0;
   grid-area: about;
   text-align: center;
-
 }
 
 #projects {
@@ -233,4 +232,26 @@ text-align: center;
 
 .socials {
   color: #000;
+}
+
+@media only screen and (max-width: 576px) {
+  h1 {
+    font-size: 3.8rem;
+    margin-left: 10%;
+    margin-top: 35%;
+  }
+
+  .icon {
+    margin-left: 320px;
+    margin-top: 20px;
+  }
+
+  .container {
+    grid-template-rows: 0.2fr 2.6fr 2fr 3.2fr 1.5fr;
+  }
+
+  #about p {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 }
