@@ -221,24 +221,34 @@ text-align: center;
 }
 
 .icon {
+  display: inline-block;
   font-size: 2rem;
   margin-right: 40px;
   cursor: pointer;
 }
 
-.icon-wrapper {
-  margin-left: 2%;
+.wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 .socials {
+  display: inline-block;
+  position: relative;
+  margin-right:
+}
+
+.socials-icon {
   color: #000;
+  font-size: 2rem;
+  margin: 10px 15px 0 15px;
 }
 
 @media only screen and (max-width: 576px) {
   h1 {
     font-size: 3.8rem;
     margin-left: 10%;
-    margin-top: 35%;
+    margin-top: 33%;
   }
 
   .icon {
@@ -247,11 +257,38 @@ text-align: center;
   }
 
   .container {
-    grid-template-rows: 0.2fr 2.6fr 2fr 3.2fr 1.5fr;
+    height: 580vh;
+    grid-template-rows: 0.2fr 1.8fr 2fr 4.5fr 1fr;
   }
 
   #about p {
     margin-left: 15%;
     margin-right: 15%;
   }
+
+   h2 {
+    padding-top: 10%;
+  }
+
+  .card1 {
+    font-size: 0.8rem;
+    margin-left: 8%;
+    margin-top: 10%;
+    width: 320px;
+  }
+
+  .card2 {
+    font-size: 0.8rem;
+    margin-left: 8%;
+    top: 59%;
+    width: 320px;
+  }
+
+  .card3 {
+    font-size: 0.8rem;
+    margin-left: 8%;
+    top: 73%;
+    width: 320px;
+  }
+
 }
