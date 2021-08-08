@@ -230,7 +230,7 @@ p {
   margin: 10px 15px 0 15px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
   h1 {
     font-size: 3.8rem;
     margin-left: 10%;
@@ -249,7 +249,7 @@ p {
 
   #about p {
     margin-left: 15%;
-    margin-right: 15%;
+    margin-right: 22%;
   }
 
   h2 {
@@ -257,29 +257,27 @@ p {
   }
 
   .project-pic {
-    height: 158px;
-    width: 320px;
+    height: 148px;
+    width: 300px;
   }
 
   .card {
-    width: 320px;
+    width: 300px;
+    margin-left: 9%;
   }
 
   .card1 {
-    margin-left: 8%;
     margin-top: 10%;
   }
 
   .card2 {
-    margin-left: 8%;
     top: 59%;
   }
 
   .tic {
-    height: 156px;
+    height: 146px;
   }
 
   .card3 {
-    margin-left: 8%;
     top: 73%;
   }
