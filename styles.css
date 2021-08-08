@@ -185,6 +185,10 @@ p {
   width: 350px;
 }
 
+.tic {
+  height: 171px;
+}
+
 .button {
   background-color: #D54C4C;
   border-radius: 5px;
