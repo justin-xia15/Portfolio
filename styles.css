@@ -96,6 +96,14 @@ p {
   color: #fff;
 }
 
+#projects h3 {
+  font-size: 1.5rem;
+}
+
+#projects p {
+  font-size: 1rem;
+}
+
 #resume {
   background: #FDF6F0;
   grid-area: resume;
